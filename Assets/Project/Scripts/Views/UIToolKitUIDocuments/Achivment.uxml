@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1; align-items: auto; justify-content: center;">
+        <ui:Button text="Click me : 0" parse-escape-sequences="true" display-tooltip-when-elided="true" enable-rich-text="true" name="CounterBtn" style="justify-content: flex-end; align-items: center; align-self: center; width: 200px; height: 100px;" />
+    </ui:VisualElement>
+</ui:UXML>

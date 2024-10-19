@@ -21,6 +21,6 @@ public class BootstrapInstaller : MonoInstaller
 
     private new void Start()
     {
-        _loader.LoadAsync(_sceneIndex);
+        //_loader.LoadAsync(_sceneIndex);
     }
 }
