@@ -1,6 +1,8 @@
 # Tamplate3d
 Шаблон проекта на юнити с использованием архитектуры MVC/MVVM.
 
+Используется Zenject, UniRX, Addresable.
+
 В разработке...
 
 ## MVC и MVVM структура проекта
@@ -13,3 +15,7 @@ MVC структура папок в проекте расположана по 
 Промежуточный код для DiContainer zenject находится в Asset/Project/Infrastructure/ZenjectMiddleware.
 
 Отслеживаются только классы с атрибутом [Controller] и в указанном пространстве имен в AppSettings.
+
+## Event bus
+Используется шина событий через интерфейсы, которые были позаимствованы с этой статьи https://habr.com/ru/articles/527418/.
+Конекретная реальизация шины прокидывается через Zenject в ProjectContext.
