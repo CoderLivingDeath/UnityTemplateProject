@@ -3,6 +3,8 @@
 
 Используется Zenject, UniRX, Addressable.
 
+Версия Unity 2022.3.4f1
+
 В разработке...
 
 ## MVC и MVVM структура проекта
