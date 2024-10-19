@@ -1,4 +1,5 @@
 using Assets.Project.Scripts.Infrastructure.ControllersMapping.ZenjectMiddleware;
+using Assets.Project.Scripts.Infrastructure.EventBuss;
 using Assets.Project.Scripts.Infrastructure.SettingsProvider;
 using Assets.Project.Scripts.Services;
 using UnityEngine;
@@ -9,6 +10,7 @@ public class ProjectContextInstaller : MonoInstaller
     [SerializeField] private AppSettings _settings;
     public override void InstallBindings()
     {
+        Container.BindInterfacesAndSelfTo<EventBus>().AsSingle();
         BindServices();
         BindMiddlewares();
     }
