@@ -1,7 +1,7 @@
 # Tamplate3d
 Шаблон проекта на юнити с использованием архитектуры MVC/MVVM.
 
-Используется Zenject, UniRX, Addresable.
+Используется Zenject, UniRX, Addressable.
 
 В разработке...
 
