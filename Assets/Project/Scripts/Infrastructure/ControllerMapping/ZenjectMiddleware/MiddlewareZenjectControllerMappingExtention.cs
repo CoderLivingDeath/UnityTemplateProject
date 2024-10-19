@@ -32,8 +32,6 @@ namespace Assets.Project.Scripts.Infrastructure.ControllersMapping.ZenjectMiddle
                 }
 
                 if (info.Lazy) scope.Lazy();
-
-                Debug.Log(info.ControllerType.Name);
             }
         }
     }
