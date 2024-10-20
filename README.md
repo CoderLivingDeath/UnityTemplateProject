@@ -22,7 +22,7 @@ MVC структура папок в проекте расположана по 
 
 ## Отслеживание контроллеров
 Контроллеры отслеживаются через промежуточный код, в определенной сборке и пространстве имен. Namespace указан в `AppSettings`(наследует `ScriptableObject`. путь `Asset/Project/Infrastructure/Settings`), который находится в папке `Asset/Settings`.
-Промежуточный код для DiContainer zenject находится в `Asset/Project/Infrastructure/ZenjectMiddleware`.
+Промежуточный код для `DiContainer zenject` находится в `Asset/Project/Infrastructure/ZenjectMiddleware`.
 
 Отслеживаются только классы с атрибутом [Controller] и в указанном пространстве имен в AppSettings.
 
