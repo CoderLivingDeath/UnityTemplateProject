@@ -1,7 +1,7 @@
 # Tamplate3d
 Шаблон проекта на юнити с использованием архитектуры MVC/MVVM.
 
-Используется Zenject, UniRX, Addressable.
+Используется Zenject, UniRX, Addressable, Yandex game.
 
 Версия Unity 2022.3.4f1
 
